@@ -1,0 +1,27 @@
+{
+  "name": "david_berrios",
+  "version": "1.0.0",
+  "description": "responsive project",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass css/*.scss css/styles.css -w"
+  },
+  "author": "Jonas",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jon-Xie/davidBerrios.com.git"
+  },
+  "keywords": [
+    "website",
+    "david",
+    "berrios"
+  ],
+  "bugs": {
+    "url": "https://github.com/Jon-Xie/davidBerrios.com/issues"
+  },
+  "homepage": "https://github.com/Jon-Xie/davidBerrios.com#readme"
+}

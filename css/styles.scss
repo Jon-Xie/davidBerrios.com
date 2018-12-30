@@ -1,0 +1,16 @@
+@import 'sass/reset';
+@import 'sass/vars';
+
+@import 'sass/layout';
+@import 'sass/home';
+
+
+@media only screen and (min-width: 768px) {
+	@import 'sass/768/layout';
+	@import 'sass/768/home';
+}
+
+@media only screen and (min-width: 1024px) {
+	@import 'sass/1024/layout';
+	@import 'sass/1024/home';
+}
