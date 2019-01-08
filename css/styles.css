@@ -318,17 +318,27 @@ textarea {
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   box-sizing: border-box; }
 
-.inner-wrap {
-  max-width: 1400px;
+.band {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  overflow: hidden; }
+
+.band-intro {
+  background-color: #e6e9ed; }
+
+.band-about-me {
+  background-color: #94bbec; }
+
+.band-contact {
+  background-color: #8cc152; }
+
+.band-inner {
+  max-width: 2000px;
   width: 90%;
   margin: 0 auto; }
 
 header {
-  background-color: #ccc;
-  padding-top: 60px;
-  padding-bottom: 60px; }
-
-main {
   padding-top: 20px;
   padding-bottom: 20px; }
 
@@ -337,10 +347,42 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px; }
 
+.logo {
+  font-weight: 800;
+  color: red; }
+
+.btn {
+  display: block;
+  border: 2px solid black;
+  border-radius: 10px; }
+
+.digit {
+  color: #333;
+  font-size: 11px; }
+  .digit:before {
+    width: 0px;
+    content: '';
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+    transition: all 450ms linear; }
+  .digit:hover {
+    font-size: 16px; }
+    .digit:hover:before {
+      width: 60px; }
+
 @media only screen and (min-width: 768px) {
   body {
-    font-size: 140%; } }
+    font-size: 140%; }
+  .band {
+    padding-top: 40px;
+    padding-bottom: 40px; } }
 
 @media only screen and (min-width: 1024px) {
   body {
-    font-size: 160%; } }
+    font-size: 160%; }
+  .band {
+    padding-top: 60px;
+    padding-bottom: 60px; } }

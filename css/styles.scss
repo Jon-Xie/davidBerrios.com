@@ -2,8 +2,9 @@
 @import 'sass/vars';
 
 @import 'sass/layout';
+@import 'sass/header';
 @import 'sass/home';
-
+@import 'sass/components';
 
 @media only screen and (min-width: 768px) {
 	@import 'sass/768/layout';

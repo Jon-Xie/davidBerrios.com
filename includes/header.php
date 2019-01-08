@@ -5,13 +5,13 @@
 <html>
 <head>
 	<link rel="stylesheet" href="css/styles.css">
-	<title></title>
+	<title>David Berrios' Website</title>
 </head>
 <body class="home">
 	<div class='main-wrap'>
 		<header>
-			<div class="inner-wrap">
-			logo
+			<div class="logo inner-wrap">
+			DAVID BERRIOS
 			</div>
 		</header>
 		<main>

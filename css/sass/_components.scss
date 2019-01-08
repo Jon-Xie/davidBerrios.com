@@ -1,0 +1,25 @@
+.btn {
+	display: block;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+.digit{
+	color: #333;
+	font-size: 11px;
+	&:before {
+		width: 0px;
+	    content: '';
+	    margin-right: 10px;
+	    border-bottom: 1px solid black;
+	    display: inline-block;
+	    position: relative;
+	    bottom: 3px;
+	    transition: all 450ms linear;
+	}
+	&:hover{
+		font-size: 16px;
+		&:before{
+	    	width: 60px;
+		}
+	}
+}
